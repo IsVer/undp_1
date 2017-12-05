@@ -1,0 +1,233 @@
+.container {
+    width: 80%;
+    height: 20%;
+    margin: 25px auto 25px auto;
+    padding: 4px 4px 4px 4px;
+    /*background-color: #021b27;*/
+    /*box-shadow: 0 0 20px #ccc;*/
+}
+
+
+#history1{
+    font-size: 13px;
+    letter-spacing: 0.5px;
+
+}
+
+
+.axis1 text {
+    /*font-family: 'Saira Semi Condensed', sans-serif;*/
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    /*color: white;*/
+}
+
+
+
+.labels {
+    fill: #333;
+    font-size: 12px;
+    text-anchor: start;
+    opacity: 0.5;
+
+}
+
+
+
+
+/*body {*/
+    /*background-color: #021b27;*/
+    /*font-family: 'Saira Semi Condensed', sans-serif;*/
+    /*font-size:14px;*/
+/*}*/
+
+#footer {
+    color: #888888;
+    font-size: 1rem;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+
+h2 {
+    font-size: 40px;
+    padding-top: 8px;
+    text-align: left;
+    font-weight: normal;
+    color: #ffffff;
+    margin-left: 30px;
+}
+
+h4 {
+    text-align: left;
+    margin-left: 40px;
+    padding: 0 0 0 0;
+    color: #000327;
+}
+
+/*!*.countriesBlock {*!*/
+    /*!*display: inline-block;*!*/
+    /*!*!*background-color: cornflowerblue;*!*!*/
+    /*!*width: 200px;*!*/
+    /*!*height: 15vw;*!*/
+    /*!*position: absolute;*!*/
+    /*!*overflow-y: scroll;*!*/
+    /*!*text-align: left;*!*/
+    /*!*padding-top: 10px;*!*/
+    /*!*margin-right: 300px;*!*/
+    /*!*margin-top: 100px;*!*/
+    /*!*z-index: 2;*!*/
+    /*!*color: #808080;*!*/
+
+/*}*/
+
+p {
+    color: #808080;
+}
+
+section {
+    /*display: absolute;*/
+    align-items: center;
+    justify-content: left;
+    /*padding: 2px;*/
+}
+
+
+
+#chartLeft {
+    display: inline-block;
+    /*	float: right;*/
+}
+
+
+
+path {
+    stroke: #888;
+    stroke-width: 4;
+    opacity: 0.4;
+    -moz-transition: all 0.1s;
+    -o-transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+    transition: all 0.1s;
+    cursor: pointer;
+    fill: none;
+}
+
+g.linklight path{
+    stroke: #ff0000;
+    opacity: 1;
+}
+
+g.highlight path {
+    stroke: #cfa63e;
+    stroke-width: 4;
+    opacity: 1;
+}
+
+/*g.national path {*/
+    /*stroke: #5387bd;*/
+    /*stroke-width: 4;*/
+    /*opacity: 1;*/
+/*}*/
+
+
+.axis1 path,
+.axis1 line {
+    fill: none;
+    stroke: #BCBCBC;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+    color: black;
+}
+
+.axis1 path {
+    opacity: 1;
+}
+
+.line:hover, .pathBase:hover {
+    opacity: 1;
+    stroke-width: 4;
+}
+
+.pathBase {
+    stroke: #888;
+    opacity: 0.2;
+}
+
+.pathLight {
+    stroke: black;
+    opacity: 1;
+}
+
+#hoverlabel {
+    /*font-family: "adelle-1","adelle-2", constantia, cambria, Georgia, serif;*/
+    fill: #496d64;
+    font-size: 14px;
+    color: #000327;
+    text-anchor: start;
+}
+
+
+
+/*.labelNation {*/
+    /*font-family: "ff-nuvo-sc-web-pro-1","ff-nuvo-sc-web-pro-2", sans-serif;*/
+    /*fill: #5387bd;*/
+    /*font-size: 12px;*/
+    /*text-anchor: start;*/
+/*}*/
+
+.labelCountry {
+    /*font-family: "ff-nuvo-sc-web-pro-1","ff-nuvo-sc-web-pro-2", sans-serif;*/
+    fill: #cfa63e;
+    font-size: 12px;
+    text-anchor: start;
+}
+
+
+
+.path.active {
+    stroke: black;
+    opacity: 1;
+}
+
+/* Bar specific CSS */
+
+.barBase {
+    fill: #5288BE;
+}
+
+.barLight {
+    fill: #2E2E31;
+}
+
+.axisBar text {
+    /*font-family: "ff-nuvo-sc-web-pro-1","ff-nuvo-sc-web-pro-2", sans-serif;*/
+    font-size: 11px;
+}
+
+.axisBarTitle {
+    /*font-family: "ff-nuvo-sc-web-pro-1","ff-nuvo-sc-web-pro-2", sans-serif;*/
+    font-size: 12px;
+}
+
+.y.axisBar path,
+.y.axisBar line {
+    opacity: 0;
+    cursor: auto;
+}
+
+.x.axisBar path,
+.x.axisBar line {
+    opacity: 0.2;
+    cursor: auto;
+}
+
+.barlabel {
+    /*font-family: "ff-nuvo-sc-web-pro-1","ff-nuvo-sc-web-pro-2", sans-serif;*/
+    font-size:11px;
+}
+
+/*#tooltip {*/
+    /*text-align: right;*/
+    /*position: absolute;*/
+/*}*/
