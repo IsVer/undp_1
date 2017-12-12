@@ -1,6 +1,6 @@
 # Urbanization in Subsaharan Africa
 
-[![preview.png](preview.png)](https://isver.github.io/undp_2/)
+[![preview1.png](preview1.png)](https://isver.github.io/undp_2/)
 
 
 ### Summary
